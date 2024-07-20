@@ -1,5 +1,5 @@
 interface ButtonProps {
-  onClick: () => Promise<void>;
+  onClick?: () => Promise<void>;
   buttonType?: "primary" | "secondary";
   children: React.ReactNode;
 }
